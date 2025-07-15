@@ -1,0 +1,33 @@
+# Business Requirements Document (BRD)
+
+## 1. Project Name:
+Sales Performance & Churn Detection Dashboard
+
+## 2. Objective:
+To create an analytics dashboard that enables stakeholders to monitor sales KPIs and detect early signs of customer churn by analyzing monthly performance data.
+
+## 3. Stakeholders:
+- Business Analyst (You)
+- Sales Team
+- Product Manager
+- Data Engineering (for ETL)
+- BI Developer (Tableau)
+
+## 4. Key Requirements:
+| ID  | Requirement Description                                  |
+|-----|----------------------------------------------------------|
+| R1  | Clean and load sales data into a cloud-based data store  |
+| R2  | Perform monthly aggregation of revenue and units sold    |
+| R3  | Create KPIs: revenue, discount %, unit price             |
+| R4  | Detect churn risk based on MoM unit drop ≥ 30%           |
+| R5  | Visualize all insights in Tableau dashboard              |
+
+## 5. Success Metrics:
+- 100% accurate churn flag
+- Dashboard refreshes monthly
+- Ability to filter by country/product
+
+## 6. Data Sources:
+- `sales_data.csv` (raw)
+- AWS S3 (cleaned)
+- Redshift (queryable)
