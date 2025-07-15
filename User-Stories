@@ -1,0 +1,10 @@
+# User Stories
+
+## Business Users
+- **As a Sales Manager**, I want to view monthly revenue by country so I can compare performance across regions.
+- **As a Marketing Head**, I want to track product categories with high churn risk so I can launch recovery campaigns.
+- **As a CEO**, I want a high-level dashboard with total revenue and churn KPIs so I can make quick strategic decisions.
+
+## Technical Users
+- **As a Data Engineer**, I want to automate ETL from CSV to Redshift so data is available for reporting.
+- **As a BI Analyst**, I want to build Tableau visuals for churn and KPIs to support business insights.
